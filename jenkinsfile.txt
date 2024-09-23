@@ -4,9 +4,8 @@ pipeline {
     stages {
         stage('Master branch') {
             steps {
-               sh 'echo "This is hotfix branch code testing"' 
-            }
-        }
+               sh 'echo "This is hotfix branch code testing the man of the war"' 
+            }        }
         stage('sprint1') {
              steps {
                 sh 'echo "sprint1 application..."'
